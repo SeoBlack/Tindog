@@ -66,6 +66,7 @@ p{
 h3{
     font-family: 'Montserrat';
     font-weight: bolder;
+    font-size: 3rem;
 }
 h2{
     font-family: 'Montserrat';
@@ -116,20 +117,27 @@ h2{
 .card{
     height: 100%;
 }
-#cta,#footer{
+#cta{
     background-color: #ef8172;
     color: #fff;
-}
-#cta{
     padding: 5% 0 0%;
+
+
 }
 .copywrite{
-    color: #fff;
+    color: #696969;
     text-align: center;
     margin: 0;
     padding-bottom: 5%;
 }
-@media only screen and (max-width: 992px){
+.social{
+    text-align: center;
+    margin: 6% 0 3%;
+}
+.social-icon{
+    margin: 0 1%;
+}
+@media (max-width: 992px){
     .title-img{
         transform:rotate(0deg);
         position: static;
